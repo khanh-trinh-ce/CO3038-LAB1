@@ -40,6 +40,7 @@ client.loop_start()
 
 client.on_subscribe = subscribed
 client.on_message = recv_message
+# ----------------------------------------------------------------------------------------------------------------------
 # Inititializing variables.
 temp = 99
 humi = 99
